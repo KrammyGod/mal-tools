@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# env variables
+.env
+
+# Auth file containing access tokens
+auth.json

@@ -1,0 +1,24 @@
+{
+  "name": "mal-tools",
+  "version": "1.0.0",
+  "description": "Helper that authenticates with MAL bot and can fetch/update user's list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "auth": "./bin/auth.js"
+  },
+  "keywords": [],
+  "author": "KrammyGod",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "pkce-challenge": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0"
+  }
+}
